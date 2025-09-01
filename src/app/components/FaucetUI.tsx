@@ -140,14 +140,14 @@ export default function FaucetUI() {
               <li>If you need a Bitcoin-series public address, download MoTe Wallet in the app store you are using and create a new wallet.</li>
               <li>After creating the wallet, enter the public address and receive the testnet coin.</li>
               <li>The amount of testnet coin is limited to 10 coins per person (10 claims × 1 coins).</li>
-              <li>By clicking the Apply button below, you agree and are aware of the terms and conditions of the service.</li>
+              <li>By clicking the Claim button below, you agree and are aware of the terms and conditions of the service.</li>
             </ul>
           </div>
 
           {!showForm && !responseMessage && isClient && canClaim && (
             <div className={styles.buttonContainer}>
               <button onClick={showApplyForm} className={styles.applyButton}>
-                Claim 5 Coins
+                Claim
               </button>
             </div>
           )}
