@@ -1,5 +1,7 @@
 # Crypto Faucet - Get Your Testnet Coins Here!
 
+#### Test URL: https://crypto-faucet-101.vercel.app/
+
 #### Description
 
 As a crypto enthusiast, I've always wanted to make crypto more accessible to people, so I built this platform and now it's possible with Crypto Faucet!
