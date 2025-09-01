@@ -39,6 +39,14 @@ The easiest way to explain this is to imagine your bank account:
   - **Android**: PlayStore
 - You can either create a new wallet or import an existing one if you already have it
 
+#### How to run it locally
+
+##### Local Environment Variables Set up
+- **Private Key Set up**: Set up your FAUCET_PRIVATE_KEY in .env.local file
+- **Electrum Server Setup**: Set up your electrum wallet server info via ELECTRUM_HOST, ELECTRUM_PORT, ELECTRUM_PROTOCOL in .env.local file
+- **How to Connect to Your Own Blockchain**: Make sure comment or delete applyBitcoinJSPatch() and verifyBitcoinJSPatch() if you plan to use your own blockchain. Currently it has set up for patch bitcoin-jslib in order to use sign transaction for MoTe Blockchain.
+
+
 #### Address Compatibility
 
 ##### Supported Addresses
